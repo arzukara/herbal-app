@@ -10,7 +10,7 @@ Herbal App is a mobile application developed using Flutter. The app features a H
 - **JSON Server Integration:** The app utilizes JSON data from a server, such as my-json-server.
 
 ## Screenshots
-
+https://recordit.co/SAyilyDehD.gif
 [Add screenshots here.]
 
 
