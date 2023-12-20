@@ -1,34 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:herbal_app/model/products.dart';
-import 'package:herbal_app/provider/product.dart';
-import 'package:herbal_app/view/widgets/card.dart';
-import 'package:provider/provider.dart';
 
-class SearchBarWidget extends StatefulWidget {
-  @override
-  _SearchBarWidgetState createState() => _SearchBarWidgetState();
-}
+class SearchBarWidget extends StatelessWidget {
+  final TextEditingController controller;
+  final ValueChanged<String> onChanged;
 
-class _SearchBarWidgetState extends State<SearchBarWidget> {
-  TextEditingController _searchController = TextEditingController();
+  const SearchBarWidget({
+    Key? key,
+    required this.controller,
+    required this.onChanged,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: TextField(
-        controller: _searchController,
+        controller: controller,
+        onChanged: onChanged,
         decoration: InputDecoration(
-          hintText: 'Search...',
+          hintText: 'Search products...',
           prefixIcon: Icon(Icons.search),
           border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(50.0),
+            borderRadius: BorderRadius.circular(10.0),
           ),
         ),
-        onChanged: (value) {
-          // Handle search query changes here
-          print("Search query: $value");
-        },
       ),
     );
   }

@@ -11,13 +11,11 @@ class ProductsService {
         Uri.parse('https://my-json-server.typicode.com/arzukara/MyJson/db'),
       );
 
-      /// 'https://my-json-server.typicode.com/arzukara/MyJson/db'
       if (response.statusCode == 200) {
         final item = json.decode(response.body);
-        String jsonString = json.encode(item); // Convert Map to JSON string
+        String jsonString = json.encode(item);
         Products data = productsFromJson(jsonString);
         datam = data.products;
-        // datam = Product.fromJson(data.products);
       } else {
         print('Error Occurred');
       }

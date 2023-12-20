@@ -1,14 +1,7 @@
-import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:get/get_utils/get_utils.dart';
 import 'package:herbal_app/model/products.dart';
 import 'package:herbal_app/provider/product.dart';
-import 'package:herbal_app/route.dart';
-import 'package:herbal_app/view/widgets/card.dart';
-import 'package:herbal_app/view/widgets/search_bar.dart';
-import 'package:provider/provider.dart';
 
 class DetailsScreen extends StatefulWidget {
   final Product? product;
@@ -113,6 +106,5 @@ Curabitur hendrerit mattis sapien eu cursus. Aenean gravida augue fermentum magn
         ],
       );
     }));
-    ;
   }
 }

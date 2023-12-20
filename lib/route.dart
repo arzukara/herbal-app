@@ -5,21 +5,20 @@ import 'package:herbal_app/screen/details_screen.dart';
 import 'package:herbal_app/screen/home_screen.dart';
 import 'package:herbal_app/screen/splash_screen.dart';
 
-class RouteNames {
-  RouteNames._();
+class CommonRouteNames {
+  CommonRouteNames._();
 
-  /// static const String myWorkScreen = "MyWorkScreen";
-  /// static const String profileScreen = "ProfileScreen";
+  static const String homeScreen = "/home";
+  static const String subScreen = "/subScreen";
+  static const String detailsScreen = "/detailsScreen";
 }
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
-    // final args = settings.arguments;
-
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(builder: (context) => const SplashScreen());
-      case '/home':
+      case CommonRouteNames.homeScreen:
         return MaterialPageRoute(builder: (context) => HomeScreen());
       case CommonRouteNames.subScreen:
         final Map<String, dynamic>? args =
@@ -50,12 +49,4 @@ class RouteGenerator {
       );
     });
   }
-}
-
-class CommonRouteNames {
-  CommonRouteNames._();
-
-  static const String homeScreen = "/home";
-  static const String subScreen = "/subScreen";
-  static const String detailsScreen = "/detailsScreen";
 }

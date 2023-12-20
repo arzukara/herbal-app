@@ -22,15 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   checkAuth() async {
-    /* isConnected = await ConnectivityUtils.startupCheckConnectedAndDisplayDialog(
-      onPositivePressed: () {
-        setState(() => isConnected = true);
-        checkAuth();
-      },
-    );*/
-
     moveTo() async {
-      print("geldim.....");
       return Get.offAllNamed(CommonRouteNames.homeScreen);
     }
 
@@ -39,7 +31,6 @@ class _SplashScreenState extends State<SplashScreen> {
     int endTime = DateTime.now().toUtc().millisecondsSinceEpoch;
     int differenceTime = endTime - startTime;
 
-    print(differenceTime);
     if (differenceTime > waitingTimeMillis) {
       moveTo();
     } else {
@@ -51,10 +42,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        // backgroundColor: const Color(0xFFF2F2F2),
         body: Stack(
           children: [
-            Container(
+            SizedBox(
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: SvgPicture.asset(

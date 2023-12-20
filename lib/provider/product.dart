@@ -21,7 +21,7 @@ class ProductProvider with ChangeNotifier {
 
     if (!isProductsLoaded || reset) {
       var wrp = await productsService.getData();
-      productsList = wrp ?? <Product>[];
+      productsList = wrp;
       isProductsLoaded = true;
     }
 

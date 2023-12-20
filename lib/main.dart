@@ -1,7 +1,6 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:herbal_app/model/products.dart';
 import 'package:herbal_app/provider/product.dart';
 import 'package:herbal_app/route.dart';
 import 'package:provider/provider.dart';
