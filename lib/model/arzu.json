@@ -1,0 +1,98 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Spices",
+        "photoUrl": "https://cdn.pixabay.com/photo/2019/05/07/09/01/spices-4185324_1280.jpg",
+        "items": [
+          {
+            "id": 1,
+            "name": "Black Pepper",
+            "photoUrl": "https://cdn.pixabay.com/photo/2020/08/19/15/32/pepper-5501218_1280.jpg",
+            "price": "₺330",
+            "unit": "1kg, Price",
+            "items": []
+          },
+          {
+            "id": 2,
+            "name": "Cumin",
+            "photoUrl": "https://cdn.pixabay.com/photo/2020/07/06/14/14/cumin-5377177_1280.jpg",
+            "price": "₺327",
+            "unit": "1kg, Price",
+            "items": []
+          },
+          {
+            "id": 3,
+            "name": "Turmeric",
+            "photoUrl": "https://cdn.pixabay.com/photo/2017/08/08/23/19/spices-2613032_1280.jpg",
+            "price": "₺150",
+            "unit": "1kg, Price",
+            "items": []
+          },
+          {
+            "id": 4,
+            "name": "Cinnamon",
+            "photoUrl": "https://cdn.pixabay.com/photo/2017/01/11/11/03/cinnamon-1971496_1280.jpg",
+            "price": "₺299",
+            "unit": "1kg, Price",
+            "items": []
+          },
+  
+          {
+            "id": 5,
+            "name": "Sumac",
+            "price": "₺135",
+            "unit": "1kg, Price",
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Soaps",
+        "photoUrl": "https://cdn.pixabay.com/photo/2015/01/16/09/32/soap-601239_1280.jpg",
+        "items": [
+          {
+            "id": 1,
+            "name": "Lavender Scented Soap",
+            "photoUrl": "https://img.freepik.com/free-photo/lavender-soap-arrangement-with-copy-space_23-2148799498.jpg?w=740&t=st=1702648355~exp=1702648955~hmac=dfcabc125883cc6b2e3b6686bb2a69ecdb109c20e28f1def35b42aeb197bb2f2",
+            "price": "₺65",
+            "unit": "1pc, Price",
+            "items": []
+          },
+          {
+            "id": 2,
+            "name": "Olive Oil Soap",
+            "photoUrl": "https://img.freepik.com/free-photo/front-view-argan-product-assortment_23-2148955778.jpg?w=740&t=st=1702648448~exp=1702649048~hmac=293ec885ae756934318aa01823c649935326dc2fa2ccca233d916e607836ce3a",
+            "price": "₺76",
+            "unit": "1pc, Price",
+            "items": []
+          },
+          {
+            "id": 3,
+            "name": "Oatmeal and Honey Soap",
+            "photoUrl": "https://img.freepik.com/free-photo/soap-honey-comb-arrangement_23-2148897623.jpg?w=1380&t=st=1702648420~exp=1702649020~hmac=185f63c7479ce2ae1e15e25bf2bd21d47d2fe3c1987854342ee797ff5be0465e",
+            "price": "₺65",
+            "unit": "1pc, Price",
+            "items": []
+          },
+          {
+            "id": 4,
+            "name": "Rose Scented Soap",
+            "photoUrl": "",
+            "price": "₺47",
+            "unit": "1pc, Price",
+            "items": []
+          },
+          {
+            "id": 5,
+            "name": "Coffee Bean Soap",
+            "photoUrl": "https://img.freepik.com/free-photo/homemade-remedy-with-coffee-beans-top-view_23-2148894288.jpg?w=1380&t=st=1702648376~exp=1702648976~hmac=7f10d644078284be8edf1ba97bf357ac1f0c8577c5d544c90ce1deb971f44283",
+            "price": "₺150",
+            "unit": "1pc, Price",
+            "items": []
+          }
+        ]
+      }
+    ]
+  }

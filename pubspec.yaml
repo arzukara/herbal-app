@@ -1,0 +1,70 @@
+name: herbal_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  flutter_svg: ^2.0.9
+  get: ^4.6.6
+  flex_color_scheme: ^7.3.1
+  http: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: Taviraj
+      fonts:
+        - asset: assets/fonts/Taviraj-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Taviraj-BlackItalic.ttf
+          weight: 900
+        - asset: assets/fonts/Taviraj-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Taviraj-BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/Taviraj-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Taviraj-ExtraBoldItalic.ttf
+          weight: 800
+        - asset: assets/fonts/Taviraj-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Taviraj-ExtraLightItalic.ttf
+          weight: 200
+        - asset: assets/fonts/Taviraj-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/Taviraj-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Taviraj-LightItalic.ttf
+          weight: 300
+        - asset: assets/fonts/Taviraj-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Taviraj-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/Taviraj-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Taviraj-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Taviraj-SemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/Taviraj-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Taviraj-ThinItalic.ttf
+          weight: 100
